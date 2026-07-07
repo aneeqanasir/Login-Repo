@@ -8,40 +8,42 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 65vh;
+    height: 84vh;
 }
-
 .box{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 380px;
     border: 2px solid rgb(26, 24, 24);
-    margin: 270px 150px;
+    margin-left: 100px;
+    margin-top: 80px;
     background: linear-gradient( to right, #030B3B, #02BFEF );
     border-radius: 30px;
-    
 
 }
 .head{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 .box input{
-    height: 60px;
-    width: 290px;
-    margin-top: 15px;
-    margin-left: 70px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
     border-radius:30px;
     border: none;
     cursor: grab;
+    padding-left: 15px;
 
 }
 
+
 .button{
-    height: 60px;
-    width: 290px;
-    margin-top: 15px;
-    margin-left: 70px;
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 60px;
     border-radius: 30px;
     color: white;
     border: 1px groove rgb(12, 11, 11);
@@ -57,4 +59,12 @@
     color: white;
     cursor: grab;
     text-decoration: none;
+}
+.box .check{
+    display: inline-block;
+    margin: 5px 25px 1px 1px;
+    width: 15px;
+    margin-left: 50px;
+    vertical-align: middle;
+    
 }
