@@ -1,0 +1,123 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ .bg-img{
+    background-image: url(./images/tablebg.jfif);
+    background-repeat: no-repeat;
+    height: 79vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+ }
+ .box{
+    width: 300px;
+    height: 400px;
+    border: 4px solid black;
+    margin: 70px auto;
+    /* background: linear-gradient( to right, #14467E, #4785A8); */
+    background: linear-gradient(90deg, rgba(8, 46, 149, 0.352) 0%, rgba(6, 120, 202, 0.432) 35%, rgba(15, 42, 82, 0.376) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    border-radius: 15px;
+    border: transparent;
+ }
+ .head{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+ }
+
+ .title{
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    margin-left: 30px;
+    font-size: large;
+    font-family: Times New Roman, Times, serif;
+    font-style: italic;
+
+ }
+div input{
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(233, 241, 245);;
+    background: none;
+    outline: none;
+    cursor: grab;
+
+}
+.checkbox{
+    margin-top: 2px;
+    width: 15px;
+    vertical-align: middle;
+    color: white;
+    font-size: small;
+    margin-left: 50px;
+}
+b{
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    font-size: small;
+}
+#email{
+    background-image: url(./images/email.png);
+    background-size: 30px;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #c0c0c0;
+}
+#pass{
+    background-image: url(./images/pass.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.button{
+    width: 250px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 12px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: none;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.button:hover{
+    background: linear-gradient(360deg,#68bbdf,#567d93);
+    transform: scale(1.1);
+    transition: 1s;
+    color: white;
+    text-decoration: underline;
+}
+.reg{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+.box:hover{
+    border: 1px solid rgb(209, 207, 207);
+    transition: 0.1s;
+    box-shadow: 2px 2px 0.5 silver;
+}
+#email:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+#pass:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1 px #68bbdf;
+}
